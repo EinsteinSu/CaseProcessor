@@ -1,0 +1,11 @@
+<h2>{{title}}</h2>
+<div>
+  <ul class="heroes">
+    <li *ngFor="let case of caseList">
+      <span class="badge">{{case.srNumber}}</span>
+      <span>{{case.version}}</span>
+      <span>{{case.subject}}</span>
+      <span>{{case.owner.name}}</span>
+    </li>
+  </ul>
+</div>
